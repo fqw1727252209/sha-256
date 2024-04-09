@@ -1,0 +1,29 @@
+# //  ModelSim SE-64 10.4c Jul 20 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do run_sim.do
+# Model Technology ModelSim SE-64 vmap 10.4c Lib Mapping Utility 2015.07 Jul 20 2015
+# vmap work work 
+# Copying D:/softwares/softwares/modeltech/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 16:28:08 on Apr 09,2024
+# vlog -reportprogress 300 -O0 -f flist.f 
+# -- Compiling module simplified_sha256
+# -- Compiling module tb_simplified_sha256
+# 
+# Top level modules:
+# 	tb_simplified_sha256
+# End time: 16:28:08 on Apr 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
