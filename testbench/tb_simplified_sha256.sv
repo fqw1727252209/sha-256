@@ -160,7 +160,7 @@ begin
 
     for (t = 0; t < 64; t++) begin
         {a, b, c, d, e, f, g, h} = sha256_op(a, b, c, d, e, f, g, h, w[t], t);
-		  //$display("TB %x\t%x\t%x\t%x\t%x\t%x\t%x\t%x\n", a, b, c, d, e, f, g, h);
+		  $display("TB %x\t%x\t%x\t%x\t%x\t%x\t%x\t%x\n", a, b, c, d, e, f, g, h);
     end
 
     // FINAL HASH FOR FIRST BLOCK
@@ -203,7 +203,7 @@ begin
 
     for (t = 0; t < 64; t++) begin
         {a, b, c, d, e, f, g, h} = sha256_op(a, b, c, d, e, f, g, h, w[t], t);
-         //$display("%x\t%x\t%x\t%x\t%x\t%x\t%x\t%x\n", a, b, c, d, e, f, g, h);
+         $display("%x\t%x\t%x\t%x\t%x\t%x\t%x\t%x\n", a, b, c, d, e, f, g, h);
     end
 
     // FINAL HASH FOR SECOND BLOCK

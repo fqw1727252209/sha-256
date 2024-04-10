@@ -1,0 +1,311 @@
+# vsim -c "+nowarnTSCALE" -L ./work -novopt -l load.log tb_simplified_sha256 
+# Start time: 21:47:05 on Apr 09,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/project/sha-256/sim/work.tb_simplified_sha256
+# Loading sv_std.std
+# Loading work.tb_simplified_sha256
+# Refreshing D:/project/sha-256/sim/work.simplified_sha256
+# Loading work.simplified_sha256
+# hexadecimal
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# TB fd2bcdb4	6a09e667	bb67ae85	3c6ef372	99eb2809	510e527f	9b05688c	1f83d9ab
+# 
+# TB 71d8370c	fd2bcdb4	6a09e667	bb67ae85	b53f7212	99eb2809	510e527f	9b05688c
+# 
+# TB fb8d87c9	71d8370c	fd2bcdb4	6a09e667	79219c65	b53f7212	99eb2809	510e527f
+# 
+# TB ef8c3c5e	fb8d87c9	71d8370c	fd2bcdb4	e95900c9	79219c65	b53f7212	99eb2809
+# 
+# TB 5a271f12	ef8c3c5e	fb8d87c9	71d8370c	f1e1acb2	e95900c9	79219c65	b53f7212
+# 
+# TB b81ea495	5a271f12	ef8c3c5e	fb8d87c9	3c025cb3	f1e1acb2	e95900c9	79219c65
+# 
+# TB cb8bd1b0	b81ea495	5a271f12	ef8c3c5e	9cd2de33	3c025cb3	f1e1acb2	e95900c9
+# 
+# TB 6edd596a	cb8bd1b0	b81ea495	5a271f12	f437951c	9cd2de33	3c025cb3	f1e1acb2
+# 
+# TB 64e7cc95	6edd596a	cb8bd1b0	b81ea495	aeed90ec	f437951c	9cd2de33	3c025cb3
+# 
+# TB 349edcb3	64e7cc95	6edd596a	cb8bd1b0	db4d2610	aeed90ec	f437951c	9cd2de33
+# 
+# TB dd2ba20d	349edcb3	64e7cc95	6edd596a	f00ab802	db4d2610	aeed90ec	f437951c
+# 
+# TB 8f7a99e2	dd2ba20d	349edcb3	64e7cc95	bffbf00d	f00ab802	db4d2610	aeed90ec
+# 
+# TB 34a91b17	8f7a99e2	dd2ba20d	349edcb3	75a8f778	bffbf00d	f00ab802	db4d2610
+# 
+# TB a452b59b	34a91b17	8f7a99e2	dd2ba20d	89c637e8	75a8f778	bffbf00d	f00ab802
+# 
+# TB 04c2c5b0	a452b59b	34a91b17	8f7a99e2	2e53ecc8	89c637e8	75a8f778	bffbf00d
+# 
+# TB 5ae968df	04c2c5b0	a452b59b	34a91b17	9dfb15c5	2e53ecc8	89c637e8	75a8f778
+# 
+# TB 5358250b	5ae968df	04c2c5b0	a452b59b	4d5a6a70	9dfb15c5	2e53ecc8	89c637e8
+# 
+# TB 77994ddd	5358250b	5ae968df	04c2c5b0	2d0adf0f	4d5a6a70	9dfb15c5	2e53ecc8
+# 
+# TB 614961db	77994ddd	5358250b	5ae968df	bbf81f49	2d0adf0f	4d5a6a70	9dfb15c5
+# 
+# TB cf1f550d	614961db	77994ddd	5358250b	c3a11859	bbf81f49	2d0adf0f	4d5a6a70
+# 
+# TB 565de058	cf1f550d	614961db	77994ddd	9b9f2501	c3a11859	bbf81f49	2d0adf0f
+# 
+# TB dc467570	565de058	cf1f550d	614961db	abadb654	9b9f2501	c3a11859	bbf81f49
+# 
+# TB a5635ce4	dc467570	565de058	cf1f550d	a30a8d49	abadb654	9b9f2501	c3a11859
+# 
+# TB 0f064bc2	a5635ce4	dc467570	565de058	c6cfbda9	a30a8d49	abadb654	9b9f2501
+# 
+# TB b75b55fe	0f064bc2	a5635ce4	dc467570	bb73f578	c6cfbda9	a30a8d49	abadb654
+# 
+# TB e9f7c796	b75b55fe	0f064bc2	a5635ce4	af8649a8	bb73f578	c6cfbda9	a30a8d49
+# 
+# TB 851f350c	e9f7c796	b75b55fe	0f064bc2	2156641e	af8649a8	bb73f578	c6cfbda9
+# 
+# TB 1870ce4c	851f350c	e9f7c796	b75b55fe	8c1fecc2	2156641e	af8649a8	bb73f578
+# 
+# TB 31bf60f9	1870ce4c	851f350c	e9f7c796	a85d2f77	8c1fecc2	2156641e	af8649a8
+# 
+# TB 8fd84be2	31bf60f9	1870ce4c	851f350c	b26afe29	a85d2f77	8c1fecc2	2156641e
+# 
+# TB 924e2a1d	8fd84be2	31bf60f9	1870ce4c	5fa72e3c	b26afe29	a85d2f77	8c1fecc2
+# 
+# TB 8ffa7370	924e2a1d	8fd84be2	31bf60f9	07b56804	5fa72e3c	b26afe29	a85d2f77
+# 
+# TB aa104e45	8ffa7370	924e2a1d	8fd84be2	fa3e229e	07b56804	5fa72e3c	b26afe29
+# 
+# TB 1867b2ee	aa104e45	8ffa7370	924e2a1d	c4553ec0	fa3e229e	07b56804	5fa72e3c
+# 
+# TB c187d02b	1867b2ee	aa104e45	8ffa7370	39c0effd	c4553ec0	fa3e229e	07b56804
+# 
+# TB ed870afd	c187d02b	1867b2ee	aa104e45	86fa54cc	39c0effd	c4553ec0	fa3e229e
+# 
+# TB 648a4048	ed870afd	c187d02b	1867b2ee	146da26d	86fa54cc	39c0effd	c4553ec0
+# 
+# TB ffba62ec	648a4048	ed870afd	c187d02b	003a3f9f	146da26d	86fa54cc	39c0effd
+# 
+# TB 4616f65d	ffba62ec	648a4048	ed870afd	5911ad06	003a3f9f	146da26d	86fa54cc
+# 
+# TB 734939d1	4616f65d	ffba62ec	648a4048	417eea4a	5911ad06	003a3f9f	146da26d
+# 
+# TB 5d233594	734939d1	4616f65d	ffba62ec	93d4710f	417eea4a	5911ad06	003a3f9f
+# 
+# TB daa703b0	5d233594	734939d1	4616f65d	4c21bbbf	93d4710f	417eea4a	5911ad06
+# 
+# TB a7e26f12	daa703b0	5d233594	734939d1	dbb45d21	4c21bbbf	93d4710f	417eea4a
+# 
+# TB 2a3df93c	a7e26f12	daa703b0	5d233594	65121d35	dbb45d21	4c21bbbf	93d4710f
+# 
+# TB 5e8b7c6d	2a3df93c	a7e26f12	daa703b0	dc7c67c9	65121d35	dbb45d21	4c21bbbf
+# 
+# TB 5e34c4e9	5e8b7c6d	2a3df93c	a7e26f12	70f6ad23	dc7c67c9	65121d35	dbb45d21
+# 
+# TB d48516ee	5e34c4e9	5e8b7c6d	2a3df93c	7a5523af	70f6ad23	dc7c67c9	65121d35
+# 
+# TB ba972915	d48516ee	5e34c4e9	5e8b7c6d	704372a3	7a5523af	70f6ad23	dc7c67c9
+# 
+# TB d0aa3984	ba972915	d48516ee	5e34c4e9	d5f468ee	704372a3	7a5523af	70f6ad23
+# 
+# TB 196e74bd	d0aa3984	ba972915	d48516ee	5631e7b0	d5f468ee	704372a3	7a5523af
+# 
+# TB 552a2f75	196e74bd	d0aa3984	ba972915	369f6a95	5631e7b0	d5f468ee	704372a3
+# 
+# TB 7a3cb6c7	552a2f75	196e74bd	d0aa3984	5d4baa4f	369f6a95	5631e7b0	d5f468ee
+# 
+# TB cc8fc5d6	7a3cb6c7	552a2f75	196e74bd	a99be6a9	5d4baa4f	369f6a95	5631e7b0
+# 
+# TB 95736775	cc8fc5d6	7a3cb6c7	552a2f75	b0306622	a99be6a9	5d4baa4f	369f6a95
+# 
+# TB ea20135c	95736775	cc8fc5d6	7a3cb6c7	cf9cb6e7	b0306622	a99be6a9	5d4baa4f
+# 
+# TB 4b4fefac	ea20135c	95736775	cc8fc5d6	d94738a0	cf9cb6e7	b0306622	a99be6a9
+# 
+# TB 8b81414b	4b4fefac	ea20135c	95736775	3c9e8eec	d94738a0	cf9cb6e7	b0306622
+# 
+# TB 9491c74d	8b81414b	4b4fefac	ea20135c	714ac900	3c9e8eec	d94738a0	cf9cb6e7
+# 
+# TB b77a55ce	9491c74d	8b81414b	4b4fefac	fdc2bece	714ac900	3c9e8eec	d94738a0
+# 
+# TB fa8a8352	b77a55ce	9491c74d	8b81414b	c34d1933	fdc2bece	714ac900	3c9e8eec
+# 
+# TB 4d54f7f1	fa8a8352	b77a55ce	9491c74d	94033284	c34d1933	fdc2bece	714ac900
+# 
+# TB 875ec88c	4d54f7f1	fa8a8352	b77a55ce	5d952599	94033284	c34d1933	fdc2bece
+# 
+# TB edc32b82	875ec88c	4d54f7f1	fa8a8352	b74d02b8	5d952599	94033284	c34d1933
+# 
+# TB cc61188c	edc32b82	875ec88c	4d54f7f1	0dcb0110	b74d02b8	5d952599	94033284
+# 
+# 40c35490	366afef3	a92ada07	c3cdbbfe	fe048692	5ed9538f	52526b44	7d18ff44
+# 
+# 4da0bea6	40c35490	366afef3	a92ada07	372309d4	fe048692	5ed9538f	52526b44
+# 
+# c1ea1ae4	4da0bea6	40c35490	366afef3	41911a9f	372309d4	fe048692	5ed9538f
+# 
+# 7f112f43	c1ea1ae4	4da0bea6	40c35490	2462f4a4	41911a9f	372309d4	fe048692
+# 
+# 2eceb5ea	7f112f43	c1ea1ae4	4da0bea6	408f0cef	2462f4a4	41911a9f	372309d4
+# 
+# 87924081	2eceb5ea	7f112f43	c1ea1ae4	47334b91	408f0cef	2462f4a4	41911a9f
+# 
+# 3f230e3b	87924081	2eceb5ea	7f112f43	a49058b0	47334b91	408f0cef	2462f4a4
+# 
+# 11f506a8	3f230e3b	87924081	2eceb5ea	2f5a5ad6	a49058b0	47334b91	408f0cef
+# 
+# 28f86f3d	11f506a8	3f230e3b	87924081	5aecb039	2f5a5ad6	a49058b0	47334b91
+# 
+# a884aa05	28f86f3d	11f506a8	3f230e3b	23ba339e	5aecb039	2f5a5ad6	a49058b0
+# 
+# ff964d92	a884aa05	28f86f3d	11f506a8	ed20b59a	23ba339e	5aecb039	2f5a5ad6
+# 
+# 33df8947	ff964d92	a884aa05	28f86f3d	12fbfcb2	ed20b59a	23ba339e	5aecb039
+# 
+# c7459838	33df8947	ff964d92	a884aa05	3bbc1e0c	12fbfcb2	ed20b59a	23ba339e
+# 
+# 89076d65	c7459838	33df8947	ff964d92	533ccf19	3bbc1e0c	12fbfcb2	ed20b59a
+# 
+# 4d1ca1a2	89076d65	c7459838	33df8947	b4936089	533ccf19	3bbc1e0c	12fbfcb2
+# 
+# 28025cc0	4d1ca1a2	89076d65	c7459838	a208732e	b4936089	533ccf19	3bbc1e0c
+# 
+# 3db0b0fd	28025cc0	4d1ca1a2	89076d65	167d03d3	a208732e	b4936089	533ccf19
+# 
+# cb31323e	3db0b0fd	28025cc0	4d1ca1a2	1ce1b977	167d03d3	a208732e	b4936089
+# 
+# 43d7f2e3	cb31323e	3db0b0fd	28025cc0	7fd1755f	1ce1b977	167d03d3	a208732e
+# 
+# d6859c1a	43d7f2e3	cb31323e	3db0b0fd	9ab1d6d3	7fd1755f	1ce1b977	167d03d3
+# 
+# 7d08272c	d6859c1a	43d7f2e3	cb31323e	b41b6d7f	9ab1d6d3	7fd1755f	1ce1b977
+# 
+# f26f8c87	7d08272c	d6859c1a	43d7f2e3	5f5db81d	b41b6d7f	9ab1d6d3	7fd1755f
+# 
+# 6fc6bc21	f26f8c87	7d08272c	d6859c1a	96fab362	5f5db81d	b41b6d7f	9ab1d6d3
+# 
+# 2a38baff	6fc6bc21	f26f8c87	7d08272c	e1655672	96fab362	5f5db81d	b41b6d7f
+# 
+# 8ee38d73	2a38baff	6fc6bc21	f26f8c87	a1e07426	e1655672	96fab362	5f5db81d
+# 
+# eff34162	8ee38d73	2a38baff	6fc6bc21	ad6eb6fb	a1e07426	e1655672	96fab362
+# 
+# f0bd1ee4	eff34162	8ee38d73	2a38baff	33a22d15	ad6eb6fb	a1e07426	e1655672
+# 
+# d4875ba3	f0bd1ee4	eff34162	8ee38d73	d059b7ad	33a22d15	ad6eb6fb	a1e07426
+# 
+# 803f6cfc	d4875ba3	f0bd1ee4	eff34162	e519a10d	d059b7ad	33a22d15	ad6eb6fb
+# 
+# 4057d854	803f6cfc	d4875ba3	f0bd1ee4	a533920e	e519a10d	d059b7ad	33a22d15
+# 
+# 1848612a	4057d854	803f6cfc	d4875ba3	bb178170	a533920e	e519a10d	d059b7ad
+# 
+# 3a4d702c	1848612a	4057d854	803f6cfc	5faef0eb	bb178170	a533920e	e519a10d
+# 
+# 9a934592	3a4d702c	1848612a	4057d854	485303d9	5faef0eb	bb178170	a533920e
+# 
+# 2d03bc73	9a934592	3a4d702c	1848612a	8bebe409	485303d9	5faef0eb	bb178170
+# 
+# 9ba709d9	2d03bc73	9a934592	3a4d702c	53c3ab1c	8bebe409	485303d9	5faef0eb
+# 
+# 00226d78	9ba709d9	2d03bc73	9a934592	eaea56b1	53c3ab1c	8bebe409	485303d9
+# 
+# 0a27ae89	00226d78	9ba709d9	2d03bc73	b91a4c55	eaea56b1	53c3ab1c	8bebe409
+# 
+# 28eddff2	0a27ae89	00226d78	9ba709d9	a34ecfd5	b91a4c55	eaea56b1	53c3ab1c
+# 
+# 30f737c2	28eddff2	0a27ae89	00226d78	01a05972	a34ecfd5	b91a4c55	eaea56b1
+# 
+# 867fe474	30f737c2	28eddff2	0a27ae89	6ec74fa0	01a05972	a34ecfd5	b91a4c55
+# 
+# f2defb68	867fe474	30f737c2	28eddff2	de5c9904	6ec74fa0	01a05972	a34ecfd5
+# 
+# d0e07c43	f2defb68	867fe474	30f737c2	aab0d8ef	de5c9904	6ec74fa0	01a05972
+# 
+# 7b060657	d0e07c43	f2defb68	867fe474	4126aa69	aab0d8ef	de5c9904	6ec74fa0
+# 
+# a5e58cc7	7b060657	d0e07c43	f2defb68	453beeaf	4126aa69	aab0d8ef	de5c9904
+# 
+# a688a6fb	a5e58cc7	7b060657	d0e07c43	8e0c4392	453beeaf	4126aa69	aab0d8ef
+# 
+# 8f158887	a688a6fb	a5e58cc7	7b060657	bb8c8a92	8e0c4392	453beeaf	4126aa69
+# 
+# d6fd699a	8f158887	a688a6fb	a5e58cc7	b8a2de79	bb8c8a92	8e0c4392	453beeaf
+# 
+# b2f8492a	d6fd699a	8f158887	a688a6fb	c570a680	b8a2de79	bb8c8a92	8e0c4392
+# 
+# d3a14ff0	b2f8492a	d6fd699a	8f158887	de5d7e1e	c570a680	b8a2de79	bb8c8a92
+# 
+# eea16447	d3a14ff0	b2f8492a	d6fd699a	dc6c955c	de5d7e1e	c570a680	b8a2de79
+# 
+# 68092a27	eea16447	d3a14ff0	b2f8492a	f05f12bf	dc6c955c	de5d7e1e	c570a680
+# 
+# 4715782b	68092a27	eea16447	d3a14ff0	5fdabb8e	f05f12bf	dc6c955c	de5d7e1e
+# 
+# 18904e8c	4715782b	68092a27	eea16447	38b06a98	5fdabb8e	f05f12bf	dc6c955c
+# 
+# 9c83b8c7	18904e8c	4715782b	68092a27	0f94cb9c	38b06a98	5fdabb8e	f05f12bf
+# 
+# 1e0199ca	9c83b8c7	18904e8c	4715782b	397a3704	0f94cb9c	38b06a98	5fdabb8e
+# 
+# 22252571	1e0199ca	9c83b8c7	18904e8c	fd0146c8	397a3704	0f94cb9c	38b06a98
+# 
+# ee607292	22252571	1e0199ca	9c83b8c7	f1596a5e	fd0146c8	397a3704	0f94cb9c
+# 
+# 16720854	ee607292	22252571	1e0199ca	d60f6b2b	f1596a5e	fd0146c8	397a3704
+# 
+# 61517edf	16720854	ee607292	22252571	c9d5967d	d60f6b2b	f1596a5e	fd0146c8
+# 
+# 040e21ab	61517edf	16720854	ee607292	546ea38d	c9d5967d	d60f6b2b	f1596a5e
+# 
+# a0d763dc	040e21ab	61517edf	16720854	9608a984	546ea38d	c9d5967d	d60f6b2b
+# 
+# fb44da37	a0d763dc	040e21ab	61517edf	85ffd1dd	9608a984	546ea38d	c9d5967d
+# 
+# 99375f6d	fb44da37	a0d763dc	040e21ab	1e3c4747	85ffd1dd	9608a984	546ea38d
+# 
+# 8767fce6	99375f6d	fb44da37	a0d763dc	91c21b0f	1e3c4747	85ffd1dd	9608a984
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = bdd2fbd9
+# Correct H[1] = 42623974	Your H[1] = 42623974
+# Correct H[2] = bf129635	Your H[2] = bf129635
+# Correct H[3] = 937c5107	Your H[3] = 937c5107
+# Correct H[4] = f09b6e9e	Your H[4] = f09b6e9e
+# Correct H[5] = 708eb28b	Your H[5] = 708eb28b
+# Correct H[6] = 0318d121	Your H[6] = 0318d121
+# Correct H[7] = 85eca921	Your H[7] = 85eca921
+# ***************************
+# 
+# CONGRATULATIONS! All your hash results are correct!
+# 
+# Total number of cycles:         328
+# 
+# 
+# ***************************
+# 
